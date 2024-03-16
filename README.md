@@ -32,3 +32,12 @@
 ### Screenshot
 <img width="960" alt="image" src="https://github.com/uxeeCoder/learn-git-branching/assets/148591312/f39cdb38-15b1-4463-a1a7-db87bb8e3dd4">
 
+# Day -3 Exercise!
+## Concentrated on completing the following sections in the "Remote" level:
+Push & Pull -- Git Remotes!: This section helped practice the fundamentals of working with remote repositories, including pushing and pulling changes.
+To Origin And Beyond -- Advanced Git Remotes, helped Dive into more advanced remote operations, enhancing skills in managing complex remote scenarios.
+
+### Screenshot of completed exercise
+<img width="958" alt="image" src="https://github.com/uxeeCoder/learn-git-branching/assets/148591312/f6281a62-920d-4d17-bc4c-aac3ae3fbb2f">
+
+

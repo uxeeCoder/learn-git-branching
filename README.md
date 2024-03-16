@@ -41,3 +41,72 @@ To Origin And Beyond -- Advanced Git Remotes, helped Dive into more advanced rem
 <img width="958" alt="image" src="https://github.com/uxeeCoder/learn-git-branching/assets/148591312/f6281a62-920d-4d17-bc4c-aac3ae3fbb2f">
 
 
+# Git Rebase Assignment
+
+## Steps to Follow:
+
+### Step 1
+- On your local learn-git-branching repository, create and switch to a new branch named feature-branch. 
+
+- Make some changes in a file within feature-branch and commit them.
+
+- Make some more changes in a file within feature-branch and DO NOT commit them.
+
+- stash your changes using git stash.
+
+### Screenshots of Step 1
+- Adding Feature branch
+
+- Make some changes to the and commit them
+
+- Make more changes and DO NOT commit them
+![alt text](image.png)
+### Screenshots of step 2
+- Locally, switch to the main branch and make different changes. Commit these changes.
+
+- On GitHub, navigate to the same repository and make additional changes to the main branch. Commit these changes directly on GitHub.
+![alt text](<../Screenshot (1312).png>)
+
+![alt text](<../Screenshot 2024-03-16 034942.png>)
+
+### Screenshots of step 3
+
+- Switch back to the feature-branch
+- Perform a rebase by executing git rebase main.
+- Resolve any conflicts that arise, then continue with git rebase --continue.
+
+![alt text](<../Screenshot 2024-03-16 035109.png>)
+
+### Screenshots of step 4
+- Apply your stashed changes with git stash pop.
+- Resolve any conflicts and make a new commit.
+
+![alt text](<../Screenshot 2024-03-16 035311.png>)
+
+### Step 5: Configure Pull Behavior (Local):
+
+- Set your local Git to merge by default during pulls with git config pull.rebase false.
+
+### Step 6: Create Diverged Changes (Local and Remote):
+
+- Locally, on the main branch, make and commit some changes.
+- On GitHub, add different changes to the main branch and commit them.
+
+![alt text](<../Screenshot 2024-03-16 040552.png>)
+
+![alt text](<../Screenshot 2024-03-16 040648.png>)
+
+![alt text](<../Screenshot 2024-03-16 040721.png>)
+
+### Step 7: Pull and Merge Changes (Local):
+- Locally, execute git pull on the main branch.
+- If a merge conflict occurs, resolve it and complete the merge.
+
+![alt text](image-1.png)
+
+## Reflect on Learning:
+- Git branching helped learn how to manage differnet branches keeping the collaboration with different developers within a team. Learned how to switch merge rebase branches and how to handle and resolve merge conflicts when they arise.
+
+
+
+
